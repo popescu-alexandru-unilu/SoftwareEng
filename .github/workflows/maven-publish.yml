@@ -6,6 +6,9 @@ name: Maven Package
 on:
   push:
     branches: [main]
+    paths:
+      - 'Calculator.java'
+      - 'CalculatorTest.java'
   release:
     types: [created]
 
