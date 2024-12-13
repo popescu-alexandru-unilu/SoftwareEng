@@ -5,7 +5,7 @@
             return a + b;
         }
 
-        public int subtract(int a, int b) {
+        public int subtract(int a, String b) {
             return a - b;
         }
 
